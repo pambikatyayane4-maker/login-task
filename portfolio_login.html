@@ -1,0 +1,145 @@
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #2E8BFF, #6DBE45);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: italic;
+        }
+
+        .A{
+            background: white;
+            width: 380px;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .B{
+            width: 100%;
+            height: 45px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding-left: 10px;
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
+
+        .D{
+            text-align: right;
+            font-size: 14px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .E{
+            width: 100%;
+            height: 45px;
+            background: #0A2A7A;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .F{
+            margin: 12px;
+            font-size: 15px;
+        }
+
+        span{
+            color: blue;
+            cursor: pointer;
+        }
+
+        .G{
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        /* Social buttons */
+        .H, .I{
+            width: 100%;
+            height: 45px;
+            border-radius: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .H{
+            background: #1877F2;
+            color: white;
+            border: none;
+        }
+
+        .I{
+            background: white;
+            border: 1px solid #ccc;
+            color: black;
+        }
+
+        .H img, .I img{
+            width: 22px;
+            height: 22px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="A">
+        <h2>Login</h2>
+
+        <input class="B" type="text" placeholder="Email">
+        <input class="B" type="password" placeholder="Password">
+
+        <div class="D">Forgot password?</div>
+
+        <button class="E">Login</button>
+
+        <div class="F">
+            don't have an account? <span>Signup</span>
+        </div>
+
+        <div class="G">Or</div>
+
+        <!-- Facebook Button -->
+        <button class="H">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook">
+            Login with Facebook
+        </button>
+
+        <!-- Google Button -->
+        <button class="I">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Google">
+            Login with Google
+        </button>
+
+    </div>
+
+</body>
+</html>
+
